@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+.header {
+  width: 460px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: rgba(0, 11, 10, 1);
+  font-family: "Sofia Sans", serif;
+}
+.header p {
+  height: 75px;
+  padding-right: 65px;
+  color: rgba(115, 115, 115, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 580px;
+  height: 679px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  padding: 50px 30px;
+  gap: 30px;
+}
+
+.form-name {
+  display: flex;
+  gap: 50px;
+}
+
+.form-name input {
+  width: 238px;
+  height: 48px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  padding: 5px 15px;
+}
+
+.first-name,
+.last-name {
+  width: 238px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+  color: rgba(1, 28, 52, 1);
+  gap: 5px;
+  letter-spacing: 0.1px;
+}
+
+.first-name::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: rgba(1, 28, 52, 1);
+  font-family: "Sofia Sans", serif;
+}
+
+.form-GD {
+  display: flex;
+  gap: 50px;
+}
+
+.form-GD label {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+}
+
+.select p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+  font-family: "Sofia Sans", serif;
+}
+
+.form-gender,
+.form-date {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.select {
+  width: 208px;
+  height: 38px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  display: flex;
+  padding: 5px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-WH {
+  display: flex;
+  gap: 50px;
+}
+
+.form-WH label {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+}
+
+.form-WH input {
+  width: 238px;
+  height: 48px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  padding: 5px 15px;
+}
+
+.form-weight,
+.form-height {
+  width: 238px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+  color: rgba(1, 28, 52, 1);
+  gap: 5px;
+  letter-spacing: 0.1px;
+}
+
+.form-act {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+  gap: 5px;
+}
+
+.form-act .select {
+  width: 500px;
+}
+
+.form-password {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sofia Sans", serif;
+  gap: 5px;
+}
+.password input {
+  width: 530px;
+  height: 48px;
+  border: 1px solid rgba(240, 240, 240, 1);
+  padding: 5px 40px 5px 15px;
+  position: relative;
+  z-index: 1;
+}
+.password img {
+  position: absolute;
+  right: 455px;
+  z-index: 2;
+  bottom: 335px;
+}
+
+button {
+  width: 530px;
+  height: 48px;
+  border-radius: 2px;
+  background: rgba(46, 196, 182, 1);
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+  font-family: "Sofia Sans", serif;
+}
+
+.terms {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Sofia Sans", serif;
+}
+.terms span {
+  color: rgba(46, 196, 182, 1);
+  text-decoration: underline;
+}
